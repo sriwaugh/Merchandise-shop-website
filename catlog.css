@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+p{
+    font-family: 'droid_serifregular', serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0 0 10px;
+    
+}
+
+
+
+.catlog-body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 900 px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: rgb(230, 232, 242);
+    border: 0.5px solid black;
+    box-shadow: 2px 2px 2px  rgb(145, 132, 132);
+    border-color: rgb(239, 221, 221);
+    
+}
+.catlog-hoodie
+{
+    width: 40%;
+    display: flex;
+    height: 670px;
+    background-color: rgb(248, 244, 244);
+    border: 0.5px solid black;
+    border-color: grey;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  rgb(145, 132, 132);
+  
+}
+.hoodie-img
+{
+    padding: 40px;
+    text-align: center;
+
+}
+.hoodie-content
+{
+   
+    padding-top: 40px;
+    padding-right: 5px;
+ 
+    
+}
+.hoodie-content span:hover{
+    text-decoration: underline;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #23527c;
+}
+.t-shirt-content span:hover
+{
+    text-decoration: underline;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+     color: #23527c;
+}
+
+.catlog-t-shirt
+{
+    width: 40%;
+    display: flex;
+    height: 670px;
+    background-color: rgb(248, 244, 244);
+    border: 0.5px solid black;
+    border-color: rgb(196, 189, 189);
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  rgb(145, 132, 132);
+    margin-left: 2px;
+   
+   
+}
+.t-shirt-img
+{
+   padding: 40px;
+    text-align: center;
+
+}
+.t-shirt-content
+{
+    padding-top: 40px;
+    padding-right: 5px;
+ 
+ 
+    
+}
+
+

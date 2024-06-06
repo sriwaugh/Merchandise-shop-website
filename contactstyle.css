@@ -1,0 +1,143 @@
+
+
+
+.register a:hover{
+ color: black;
+ font-weight: bold;
+}
+.pf_questions{
+    margin-top: 25px;
+}
+.second_container h3{
+    font-size: 30px;
+    font-family:"Cabin", sans-serif;
+    text-align: center;
+}
+.second_container pre{
+
+    font-size: 17px;
+    text-align: center;
+}
+.pf_para{
+    margin-top: 50px;
+}
+.line{
+ 
+    margin: 10px;
+}
+.line p{
+    text-align: center;
+}
+.Querys
+{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.left_side
+{
+    margin-left: 300px;
+    height: 400px;
+   
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left_side pre{
+    font-family:"Alegreya", serif;
+}
+.top_querys
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top_querys h5{
+    font-size: 20px;
+    font-family:"Cabin", sans-serif;
+   
+}
+.right_side
+{
+    height: 400px;
+    width: 500px;
+   
+}
+.right_side input{
+    color: rgb(16, 12, 75);
+    outline: none;
+    border-bottom:1px solid grey;
+    
+    width: 250px;
+}
+.details_container
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right_side input:hover
+{
+    border-bottom: 3px solid rgb(12, 11, 27);
+    border-radius: 0;
+}
+.name_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstname 
+{
+    height: 20px;
+    margin-top: 50px;
+}
+
+.secondname
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 20px;
+    
+}
+.for_contact
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.phone_input
+{
+    margin-left: 20px;
+}
+
+.problem input{
+
+width: 520px;
+}
+.problem_in_detils input
+{
+   width: 520px;
+}
+
+.submit_button{
+    display: flex;
+    justify-content: flex-end;
+    align-content: end;
+    
+}
+.submit_button button{
+   background-color: #070F2B;
+   height: 50px;
+   width: 100px;
+   border-radius: 5px;
+   color: white;
+     font-family:"Cabin", sans-serif;;
+}

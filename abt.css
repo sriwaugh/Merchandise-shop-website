@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+.main_container{
+  
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 1400px;
+}
+.sub_container{
+    text-align: center;
+    width:90%;
+    height:100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 2px 6px 1px #ADADAD;
+}
+.sub_container h4{  
+      font-size: 28px;
+      font-family:  "cabin", sans-serif;
+      color: #333333;
+}
+.sub_container p{
+    font-size:18px;
+    font-family:  "cabin", sans-serif;
+}
+.para_moto
+{
+    margin-left: 90px;
+   width: 86%;
+}
+.head_learn h3{
+    font-weight: 100px;
+    font-size: 26px;
+    padding-top: 20px;
+    color: #333333;
+    font-family: "Quicksand", sans-serif;
+}
+
+.main_begin
+{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.main_begin p{
+    font-size: 17px;
+    font-family: "cabin", sans-serif;
+}
+.main_begin h5{
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.sub_begin{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sub_adapt{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sub_rebrand{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main_begin h5
+{
+    margin-bottom: 15px;
+}
+.proces_img img{
+    width: 850px;
+}
+.contain_proces{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.contain_proces h5{
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.contain_proces p{
+    font-size: 17px;
+    font-family: "cabin", sans-serif;
+}
+.contain_proces h5{
+    margin-bottom: 15px;
+}
+.sub_curate{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub_expan
+{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
