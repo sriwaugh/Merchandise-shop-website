@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Madimi+One&display=swap');
+
+.price-title
+{
+    padding: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    
+}
+.price-subtitle
+{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.price-type
+{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+}
+.price-rate
+{
+    display: flex;
+    margin-left: 10px;
+}
+.price-button{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.price-button button
+{
+    padding: 15px 20px;
+    background-color: blueviolet;
+    color: white;
+    width: fit-content;
+    font-family: "Madimi One", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.list-heading
+{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.price-details li
+{
+    list-style: circle;
+    list-style-position: inside;
+    padding: 20px;
+
+}
+
+/**price-background**/
+.contain-pricing
+{
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgb(240, 240, 255);
+    padding: 80px 150px;
+    margin-left: 140px;
+    display: flex;
+    padding-left: 110px;
+    font-family: "Madimi One", sans-serif;
+
+   
+}
+
+/***price-1 styling***/
+.price1
+{
+   
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e6e8f0;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: 60px;
+    box-shadow: 0 8px 20px rgba(34,41,57,.1);
+    padding: 50px;
+}
